@@ -14,4 +14,4 @@
 
 - 统计乘用车和商用车各自数量占比 `CarsRatio`  
 - 统计每月销售占比 `SalesVolumeByMonth`  
-- 统计某月市、市县汽车销量 `SalesVolumeByCityDistrictJob`  
+- 统计某月市、市县汽车销量 `SalesVolumeByCityDistrict`  
