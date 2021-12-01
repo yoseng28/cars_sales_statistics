@@ -15,3 +15,5 @@
 - 统计乘用车和商用车各自数量占比 `CarsRatio`  
 - 统计每月销售占比 `SalesVolumeByMonth`  
 - 统计某月市、市县汽车销量 `SalesVolumeByCityDistrict`  
+- 统计男女买车比例 `GenderRatio`  
+- 统计不同年龄段的汽车销量 `GenderAgeRange`  
