@@ -1,0 +1,50 @@
+use car;
+
+create external table cars(
+province string, --省份
+month int, --月
+city string, --市 
+district string, --区县
+year int, --年
+model string,--车辆型号
+manufacturer string,--制造商
+brand string, --品牌
+vehicletype string,--车辆类型
+ownership string,--所有权
+nature string, --使用性质
+quantity int,--数量
+enginemodel string,--发动机型号
+displacement int,--排量
+power double, --功率
+fuel string,--燃料种类
+length1 int,--车长
+width1 int,--车宽
+height1 int,--车高
+length2 int,--厢长
+width2 int,--厢宽
+height2 int,--厢高
+numberofaxles int,--轴数
+wheelbase int,--轴距
+frontwheelbase int,--前轮距
+tirespecification string,--轮胎规格
+tirenumber int,--轮胎数
+totalquality int,--总质量
+completequality int,--整备质量
+approvedquality int,--核定载质量
+approvedpassenger string,--核定载客
+tractionquality int,--准牵引质量
+chassisenterprise string,--底盘企业
+chassisbrand string,--底盘品牌
+chassismodel string,--底盘型号
+engineenterprise string,--发动机企业
+vehiclename string,--车辆名称
+age int,--年龄
+gender string --性别
+)
+row format delimited
+fields terminated by ','
+location '/cars'
+tblproperties("skip.header.line.count"="1");  --跳过文件行首1行;
+
+desc cars;
+
